@@ -7,10 +7,11 @@ https://twemoji.naecqde.workers.dev/
 # Installation
 ```bash
 npm i svelte-twemoji-component
-# or yarn add svelte-twemoji-component
+# or
+# yarn add svelte-twemoji-component
 ```
 
-# How to use
+# Usage
 ```svelte
 <script lang="ts">
     import Twemoji from "svelte-twemoji-component";
