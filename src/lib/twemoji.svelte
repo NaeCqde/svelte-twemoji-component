@@ -1,9 +1,13 @@
 <script lang="ts">
     export let emoji: string;
+
     export let type: "svg" | "png" = "svg";
-    export let exClass: string = "";
-    export let exStyle: string = "width: 32px; height: 32px;";
     export let baseURL = "https://twemoji.naecqde.workers.dev/twemoji/";
+
+    let exClass: string = "twemoji";
+    let exStyle: string = "";
+
+    export { exClass as class, exStyle as style };
 
     const url = `${baseURL}${emoji}.${type}`;
 </script>
