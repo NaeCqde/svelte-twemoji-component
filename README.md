@@ -2,7 +2,7 @@
 Component version of https://github.com/jankiel7410/svelte-twemoji
 
 # Demo
-https://twemoji.naecqde.workers.dev/
+https://svelte-twemoji-component.pages.dev/
 
 # Installation
 ```bash
